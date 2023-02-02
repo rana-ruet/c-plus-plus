@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main(){
 
@@ -8,6 +9,6 @@ int main(){
    a = b;
    b = temp;
 
-   std:: cout << a;
-   std:: cout << b;
+   cout  << "a = " << a << endl
+         << "b = " << b;
 }
