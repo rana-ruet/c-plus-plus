@@ -1,13 +1,11 @@
 #include <iostream>
 
 int main(){
+   int x = 10;
+   double y = 5;
+   double z = (x + 10) / (3 * y);
 
-   int a = 5;
-   int b = 6;
-   int temp = a;
-   a = b;
-   b = temp;
+   std::cout << z;
 
-   std:: cout << a;
-   std:: cout << b;
+   return 0;
 }
