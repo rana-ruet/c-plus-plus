@@ -2,19 +2,12 @@
 using namespace std;
 
 int main(){
-   double sales = 95000;
-   cout << "Total Sales = $" << sales <<endl;
+   cout << "Enter the Temperature (in Fahrenheit): ";
+   double fahrenheit;
+   cin >> fahrenheit;
 
-   double stateTaxRate = 0.04;
-   double stateTax = sales * stateTaxRate;
-   cout << "State Tax = $" << stateTax <<endl;
-
-   double countryTaxRate = 0.02;
-   double countryTax = sales * countryTaxRate;
-   cout << "Country Tax = $" << countryTax <<endl;
-
-   double totalTax = stateTax +countryTax;
-   cout << "Total tax = $" << totalTax <<endl;
+   double celcius = (fahrenheit - 32) * 5 / 9;
+   cout << "Temperature in Celcius: " << celcius;
 
    return 0;
 }
