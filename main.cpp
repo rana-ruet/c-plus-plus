@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-   cout << "Enter the Temperature (in Fahrenheit): ";
-   double fahrenheit;
-   cin >> fahrenheit;
+   cout << "Enter the radius of the circle: ";
+   double radius;
+   cin >> radius;
 
-   double celcius = (fahrenheit - 32) * 5 / 9;
-   cout << "Temperature in Celcius: " << celcius;
+   double area = 3.1416 * radius * radius;
+   cout << "Area of the circle: " << area;
 
    return 0;
 }
