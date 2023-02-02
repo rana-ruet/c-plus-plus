@@ -1,6 +1,13 @@
 #include <iostream>
 
-int main() {
-   std:: cout << "Welcome to C++";
-   return 0;
+int main(){
+
+   int a = 5;
+   int b = 6;
+   int temp = a;
+   a = b;
+   b = temp;
+
+   std:: cout << a;
+   std:: cout << b;
 }
