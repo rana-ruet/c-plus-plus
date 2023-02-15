@@ -2,6 +2,8 @@
 
 using namespace std;
 
-void greet(string name) {
-   cout << "Hello " << name;
+namespace greeting {
+   void greet(string name) {
+      cout << "Hello " << name;
+   }
 }

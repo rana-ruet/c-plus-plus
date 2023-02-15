@@ -96,6 +96,8 @@ void greet(string name) {
 
 // organizing code in different file
 #include "./utils/greet.hpp"
+
+using greeting::greet;
 int main() {
       greet("Rana");
       return 0;

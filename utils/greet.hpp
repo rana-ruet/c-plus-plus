@@ -3,6 +3,8 @@
 
 #include <string>
 
-void greet(std::string name);
+namespace greeting {
+   void greet(std::string name);
+}
 
 #endif
