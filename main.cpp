@@ -95,10 +95,24 @@ void greet(string name) {
  */
 
 // organizing code in different file
-#include "./utils/greet.hpp"
+/* #include "./utils/greet.hpp"
 
 using greeting::greet;
 int main() {
       greet("Rana");
+      return 0;
+}
+ */
+
+
+void printingOdd (int limit) {
+      for(int i = 0; i < limit; i ++)
+            if (i % 2 != 0)
+                  cout << i << endl;
+}
+
+
+int main () {
+      printingOdd(10);
       return 0;
 }
