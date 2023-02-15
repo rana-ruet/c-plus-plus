@@ -93,3 +93,10 @@ void greet(string name) {
       cout << "Hello " << name;
 }
  */
+
+// organizing code in different file
+#include "./utils/greet.hpp"
+int main() {
+      greet("Rana");
+      return 0;
+}
